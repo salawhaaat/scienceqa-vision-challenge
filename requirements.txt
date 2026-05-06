@@ -1,0 +1,12 @@
+# Pinned versions used for all training runs (Google Colab Pro, Python 3.11)
+# Install: pip install -r requirements.txt
+transformers==4.51.3
+peft==0.15.1
+accelerate==1.6.0
+bitsandbytes==0.45.5
+pillow>=10.0.0
+tqdm
+matplotlib
+numpy
+pandas
+torch>=2.2.0          # tested with 2.4.1+cu121 on A100 / 2.2.0+cu118 on L4/T4
